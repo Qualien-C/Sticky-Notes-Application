@@ -1,6 +1,6 @@
 {
   "name": "sticky-notes-app",
-  "productName": "sticky-notes-app",
+  "productName": "Sticky Notes",
   "version": "1.0.0",
   "description": "Sticky notes application purely built with 'HTML, CSS, JS'",
   "main": "src/index.js",
@@ -9,7 +9,24 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "lint": "echo \"No linting configured\"",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "sticky-notes-app",
+    "win": {
+      "target": ["nsis"],
+      "icon": "./src/icon.ico",
+      "requestedExecutionLevel": "requireAdministrator"
+    },
+    "nsis": {
+      "installerIcon": "./src/icon.ico",
+      "uninstallerIcon": "./src/icon.ico",
+      "uninstallDisplayName": "Sticky Notes",
+      "license": "license.txt",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
   },
   "keywords": [],
   "author": {
@@ -18,6 +35,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
